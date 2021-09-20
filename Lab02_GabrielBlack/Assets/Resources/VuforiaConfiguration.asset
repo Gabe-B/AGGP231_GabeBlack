@@ -17,8 +17,8 @@ MonoBehaviour:
     ufoLicenseKey: QVhWYUorLy8vLy8vQUFBQUtEZzhraFhKM1U5aHBYWis3VlJBdXY1UG9ZR3VpaE9pQXhzaUQrckpqc25abGNDWnBLb3ZBRlI5MWJCOUFLcUFSd3o0VzY5c2Y5eW5LVHRuSWpRdGpVaTN1QjRvOG9VUFVoTlZQOGNNbzRBbVJPK2NGUzhkSDNXNU1QdTBZQ0hKOHF1WFIxOG9SRW5UL2Q2aldicWE5OXBVRjgzbWRmUmxOaXNLRDhTc21GVFMyUlVjK0JCYnpjeTY4aWk1aXo3bHZjWkRMc21UcFR4eFArK3JvZ0g1MXZhaWZhQitkZFdoNkRGNlBSVFlJYU9LKzZLRG5KRXdpRy9rZzJTWnUzMlYyWktUOVBOL1VOWlF1WDdpUWZPSmhtb2RGS3h6YnRXdWk3OFFqZ1Mzc2FlN3ZVbDVJckJ5UGVKejBYZ3hWR3U3OEladHl3UVpON2toZmJ4dU9BMnB1NFYrSGlNV0JkUG1iUnJrS0tWYm1tME8=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
-    maxSimultaneousImageTargets: 1
-    maxSimultaneousObjectTargets: 1
+    maxSimultaneousImageTargets: 6
+    maxSimultaneousObjectTargets: 6
     virtualSceneScaleFactor: 1
     useDelayedLoadingObjectTargets: 0
     modelTargetRecoWhileExtendedTracked: 1
@@ -36,8 +36,8 @@ MonoBehaviour:
     videoBackgroundEnabled: 1
   deviceTracker:
     autoStartTracker: 1
-    arcoreRequirement: 1
-    autoImportArcore: 1
+    arcoreRequirement: 0
+    autoImportArcore: 0
   playmode:
     mSequencePath: 
     playModeType: 0
