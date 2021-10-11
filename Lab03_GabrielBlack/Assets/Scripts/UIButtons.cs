@@ -7,14 +7,14 @@ using UnityEngine.XR.ARFoundation;
 public class UIButtons : MonoBehaviour
 {
 
-    public ARSession arsession;
+    public ARPlaneManager arPlaneManager;
 
     public void ARPause()
     {
-        arsession.enabled = false;
+        arPlaneManager.enabled = false;
     }
     public void ARResume()
     {
-        arsession.enabled = true;
+        arPlaneManager.enabled = true;
     }
 }
