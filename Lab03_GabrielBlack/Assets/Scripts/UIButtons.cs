@@ -17,4 +17,9 @@ public class UIButtons : MonoBehaviour
     {
         arPlaneManager.enabled = true;
     }
+
+    public void QuitButton()
+    {
+        Application.Quit();
+    }
 }

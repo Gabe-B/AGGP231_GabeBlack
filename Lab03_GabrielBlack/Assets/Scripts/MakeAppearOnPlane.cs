@@ -9,7 +9,7 @@ using UnityEngine.XR.ARSubsystems;
 
 public class MakeAppearOnPlane : MonoBehaviour
 {
-    public GameObject kyle;
+    public GameObject content;
     public bool canAppearOnPlane = true;
     public Slider scaleSlider;
     public Slider rotationSlider;
@@ -19,7 +19,6 @@ public class MakeAppearOnPlane : MonoBehaviour
     public float rotMin;
     public float rotMax;
 
-    GameObject kyleInstance;
     ARRaycastManager raycastManager;
     Vector2 touchPos;
 
@@ -70,31 +69,36 @@ public class MakeAppearOnPlane : MonoBehaviour
                     var hitPose = hits[0].pose;
 
 
-                    if (kyleInstance == null)
+                    if (!content.activeSelf)
                     {
-                        kyleInstance = Instantiate(kyle, hitPose.position, hitPose.rotation);
+                        //contentInstance = Instantiate(content, hitPose.position, hitPose.rotation);
+                        content.SetActive(true);
+                        content.transform.position = new Vector3(hitPose.position.x, hitPose.position.y + 0.5f, hitPose.position.z);
+                        content.transform.rotation = hitPose.rotation;
                     }
                     else
                     {
-                        kyleInstance.transform.position = hitPose.position;
+                        //content.GetComponent<Rigidbody>().velocity = Vector3.zero;
+                        content.transform.position = new Vector3(hitPose.position.x, hitPose.position.y + 0.5f, hitPose.position.z);
+                        content.transform.rotation = hitPose.rotation;
                     }
                 }
             }
         }
         else
         {
-            Destroy(kyleInstance);
+            content.SetActive(false);
         }
     }
 
     private void ScaleObject(float value)
     {
-        kyleInstance.transform.localScale = new Vector3(value, value, value);
+        content.transform.localScale = new Vector3(value, value, value);
     }
 
     private void RotateObject(float value)
     {
-        kyleInstance.transform.localEulerAngles = new Vector3(transform.rotation.x, value, transform.rotation.z);
+        content.transform.localEulerAngles = new Vector3(transform.rotation.x, value, transform.rotation.z);
     }
 
     public void CanAppearOnPlane()

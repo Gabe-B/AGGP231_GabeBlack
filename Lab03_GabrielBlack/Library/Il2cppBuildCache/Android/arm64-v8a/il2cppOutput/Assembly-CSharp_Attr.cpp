@@ -536,6 +536,76 @@ static void AssemblyU2DCSharp_CustomAttributesCacheGenerator(CustomAttributesCac
 		RuntimeCompatibilityAttribute_set_WrapNonExceptionThrows_m8562196F90F3EBCEC23B5708EE0332842883C490_inline(tmp, true, NULL);
 	}
 }
+static void Joystick_tE046BFA03A6D57182FE0E0EEC50F4B7BCF129873_CustomAttributesCacheGenerator_handleRange(CustomAttributesCache* cache)
+{
+	{
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+	}
+}
+static void Joystick_tE046BFA03A6D57182FE0E0EEC50F4B7BCF129873_CustomAttributesCacheGenerator_deadZone(CustomAttributesCache* cache)
+{
+	{
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+	}
+}
+static void Joystick_tE046BFA03A6D57182FE0E0EEC50F4B7BCF129873_CustomAttributesCacheGenerator_axisOptions(CustomAttributesCache* cache)
+{
+	{
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+	}
+}
+static void Joystick_tE046BFA03A6D57182FE0E0EEC50F4B7BCF129873_CustomAttributesCacheGenerator_snapX(CustomAttributesCache* cache)
+{
+	{
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+	}
+}
+static void Joystick_tE046BFA03A6D57182FE0E0EEC50F4B7BCF129873_CustomAttributesCacheGenerator_snapY(CustomAttributesCache* cache)
+{
+	{
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+	}
+}
+static void Joystick_tE046BFA03A6D57182FE0E0EEC50F4B7BCF129873_CustomAttributesCacheGenerator_background(CustomAttributesCache* cache)
+{
+	{
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+	}
+}
+static void Joystick_tE046BFA03A6D57182FE0E0EEC50F4B7BCF129873_CustomAttributesCacheGenerator_handle(CustomAttributesCache* cache)
+{
+	{
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+	}
+}
+static void DynamicJoystick_t675DA15D6A912CB9638176139FD810B7B051E867_CustomAttributesCacheGenerator_moveThreshold(CustomAttributesCache* cache)
+{
+	{
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+	}
+}
+static void VariableJoystick_tEA2A86D8EE903904A4F3D9FA53B8F4B065A9EB9B_CustomAttributesCacheGenerator_moveThreshold(CustomAttributesCache* cache)
+{
+	{
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+	}
+}
+static void VariableJoystick_tEA2A86D8EE903904A4F3D9FA53B8F4B065A9EB9B_CustomAttributesCacheGenerator_joystickType(CustomAttributesCache* cache)
+{
+	{
+		SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 * tmp = (SerializeField_t6B23EE6CC99B21C3EBD946352112832A70E67E25 *)cache->attributes[0];
+		SerializeField__ctor_mDE6A7673BA2C1FAD03CFEC65C6D473CC37889DD3(tmp, NULL);
+	}
+}
 static void DropdownSample_t925F66C7435D75374A0E26DE15B4F1D95697F0DF_CustomAttributesCacheGenerator_text(CustomAttributesCache* cache)
 {
 	{
@@ -1480,7 +1550,7 @@ static void U3CWarpTextU3Ed__8_t4846D84CD08AB0A242548B376B06FF86A4830D76_CustomA
 	}
 }
 IL2CPP_EXTERN_C const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[];
-const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[122] = 
+const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[132] = 
 {
 	U3CStartU3Ed__4_t85DC3CED72C53244AC5D2467B8CB12EF944D3266_CustomAttributesCacheGenerator,
 	U3CStartU3Ed__10_t4C97F7E5F1F2D654FF76C297F92CF423F472A640_CustomAttributesCacheGenerator,
@@ -1499,6 +1569,16 @@ const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[122
 	U3CU3Ec__DisplayClass10_0_t1AC05F5499B93AC94E9727B8B0F08D8037AD52A6_CustomAttributesCacheGenerator,
 	U3CAnimateVertexColorsU3Ed__10_t0331DD44C492F52D541A0BC9A3FC88FC3D1C4B40_CustomAttributesCacheGenerator,
 	U3CWarpTextU3Ed__8_t4846D84CD08AB0A242548B376B06FF86A4830D76_CustomAttributesCacheGenerator,
+	Joystick_tE046BFA03A6D57182FE0E0EEC50F4B7BCF129873_CustomAttributesCacheGenerator_handleRange,
+	Joystick_tE046BFA03A6D57182FE0E0EEC50F4B7BCF129873_CustomAttributesCacheGenerator_deadZone,
+	Joystick_tE046BFA03A6D57182FE0E0EEC50F4B7BCF129873_CustomAttributesCacheGenerator_axisOptions,
+	Joystick_tE046BFA03A6D57182FE0E0EEC50F4B7BCF129873_CustomAttributesCacheGenerator_snapX,
+	Joystick_tE046BFA03A6D57182FE0E0EEC50F4B7BCF129873_CustomAttributesCacheGenerator_snapY,
+	Joystick_tE046BFA03A6D57182FE0E0EEC50F4B7BCF129873_CustomAttributesCacheGenerator_background,
+	Joystick_tE046BFA03A6D57182FE0E0EEC50F4B7BCF129873_CustomAttributesCacheGenerator_handle,
+	DynamicJoystick_t675DA15D6A912CB9638176139FD810B7B051E867_CustomAttributesCacheGenerator_moveThreshold,
+	VariableJoystick_tEA2A86D8EE903904A4F3D9FA53B8F4B065A9EB9B_CustomAttributesCacheGenerator_moveThreshold,
+	VariableJoystick_tEA2A86D8EE903904A4F3D9FA53B8F4B065A9EB9B_CustomAttributesCacheGenerator_joystickType,
 	DropdownSample_t925F66C7435D75374A0E26DE15B4F1D95697F0DF_CustomAttributesCacheGenerator_text,
 	DropdownSample_t925F66C7435D75374A0E26DE15B4F1D95697F0DF_CustomAttributesCacheGenerator_dropdownWithoutPlaceholder,
 	DropdownSample_t925F66C7435D75374A0E26DE15B4F1D95697F0DF_CustomAttributesCacheGenerator_dropdownWithPlaceholder,
