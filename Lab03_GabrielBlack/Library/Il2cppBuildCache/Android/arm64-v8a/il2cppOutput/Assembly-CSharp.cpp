@@ -776,7 +776,6 @@ IL2CPP_EXTERN_C const RuntimeMethod* Action_1__ctor_mAAD584CFC05189D5C299E9D60B7
 IL2CPP_EXTERN_C const RuntimeMethod* ChatController_AddToChatOutput_m43856EEA133E04C24701A2616E7F10D7FFA68371_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentInChildren_TisTextMeshProUGUI_tCC5BE8A76E6E9AF92521A462E8D81ACFBA7C85F1_m7762ECF790D2DB9B7B31BEAC7309B79DECF83BA5_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponentInParent_TisCanvas_t2B7E56B7BDC287962E092755372E214ACB6393EA_m79D616348A09F5E2973F405F4F9D944744FAD6A5_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisARRaycastManager_t76CDCF27810673048562A85CAD0E3FEEB3D7328F_m06FA2C50C4CE43EB1459B81753EFF12567E93770_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisButton_tA893FC15AB26E1439AC25BDCA7079530587BB65D_m23CBF33EAAEEC18E7B5AA90422BB1E4781B774A6_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisJoystickPlayerExample_t07673CB1C6FF2F83E4464AA7D01DE72B5DA8922B_m55C93DD9D196DE80687E69A9C22677E087F99789_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisLight_tA2F349FE839781469A0344CF6039B51512394275_m78431E28004B9C0FF3A712F157BFEDF8D42E36EA_RuntimeMethod_var;
@@ -22927,11 +22926,6 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Joystick_set_SnapY_mAD4C6843
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9  Joystick_get_Direction_mF002E7B698C393FF866864D4A552357C535D36C5 (Joystick_tE046BFA03A6D57182FE0E0EEC50F4B7BCF129873 * __this, const RuntimeMethod* method);
 // System.String UnityEngine.Vector2::ToString()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Vector2_ToString_mBD48EFCDB703ACCDC29E86AEB0D4D62FBA50F840 (Vector2_tBB32F2736AEC229A7BFBCE18197EC0F6AC7EC2D9 * __this, const RuntimeMethod* method);
-// !!0 UnityEngine.Component::GetComponent<UnityEngine.XR.ARFoundation.ARRaycastManager>()
-inline ARRaycastManager_t76CDCF27810673048562A85CAD0E3FEEB3D7328F * Component_GetComponent_TisARRaycastManager_t76CDCF27810673048562A85CAD0E3FEEB3D7328F_m06FA2C50C4CE43EB1459B81753EFF12567E93770 (Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684 * __this, const RuntimeMethod* method)
-{
-	return ((  ARRaycastManager_t76CDCF27810673048562A85CAD0E3FEEB3D7328F * (*) (Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684 *, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m69D9C576D6DD024C709E29EEADBC8041299A3AA7_gshared)(__this, method);
-}
 // System.Void UnityEngine.UI.Slider::set_maxValue(System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Slider_set_maxValue_m5CDA3D451B68CF2D3FCFF43D1738D1DCC1C6425B (Slider_tBF39A11CC24CBD3F8BD728982ACAEAE43989B51A * __this, float ___value0, const RuntimeMethod* method);
 // System.Void UnityEngine.UI.Slider::set_minValue(System.Single)
@@ -27154,7 +27148,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MakeAppearOnPlane_Awake_m917DC84E89BB3B8
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisARRaycastManager_t76CDCF27810673048562A85CAD0E3FEEB3D7328F_m06FA2C50C4CE43EB1459B81753EFF12567E93770_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MakeAppearOnPlane_RotateObject_m67DBD65840C9FEF51985D75A560C3859F668D49D_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MakeAppearOnPlane_ScaleObject_m5B1B9949B9CCF73F5963E837F8322610046D25EB_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityAction_1__ctor_m8CACADCAC18230FB18DF7A6BEC3D9EAD93FEDC3B_RuntimeMethod_var);
@@ -27163,48 +27156,44 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MakeAppearOnPlane_Awake_m917DC84E89BB3B8
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		// raycastManager = GetComponent<ARRaycastManager>();
-		ARRaycastManager_t76CDCF27810673048562A85CAD0E3FEEB3D7328F * L_0;
-		L_0 = Component_GetComponent_TisARRaycastManager_t76CDCF27810673048562A85CAD0E3FEEB3D7328F_m06FA2C50C4CE43EB1459B81753EFF12567E93770(__this, /*hidden argument*/Component_GetComponent_TisARRaycastManager_t76CDCF27810673048562A85CAD0E3FEEB3D7328F_m06FA2C50C4CE43EB1459B81753EFF12567E93770_RuntimeMethod_var);
-		__this->set_raycastManager_12(L_0);
 		// scaleSlider.maxValue = maxScale;
-		Slider_tBF39A11CC24CBD3F8BD728982ACAEAE43989B51A * L_1 = __this->get_scaleSlider_6();
-		float L_2 = __this->get_maxScale_8();
-		NullCheck(L_1);
-		Slider_set_maxValue_m5CDA3D451B68CF2D3FCFF43D1738D1DCC1C6425B(L_1, L_2, /*hidden argument*/NULL);
+		Slider_tBF39A11CC24CBD3F8BD728982ACAEAE43989B51A * L_0 = __this->get_scaleSlider_6();
+		float L_1 = __this->get_maxScale_8();
+		NullCheck(L_0);
+		Slider_set_maxValue_m5CDA3D451B68CF2D3FCFF43D1738D1DCC1C6425B(L_0, L_1, /*hidden argument*/NULL);
 		// scaleSlider.minValue = minScale;
-		Slider_tBF39A11CC24CBD3F8BD728982ACAEAE43989B51A * L_3 = __this->get_scaleSlider_6();
-		float L_4 = __this->get_minScale_9();
-		NullCheck(L_3);
-		Slider_set_minValue_m253C0E27C8B0275EDAAFD9E97F6DC1E426460F93(L_3, L_4, /*hidden argument*/NULL);
+		Slider_tBF39A11CC24CBD3F8BD728982ACAEAE43989B51A * L_2 = __this->get_scaleSlider_6();
+		float L_3 = __this->get_minScale_9();
+		NullCheck(L_2);
+		Slider_set_minValue_m253C0E27C8B0275EDAAFD9E97F6DC1E426460F93(L_2, L_3, /*hidden argument*/NULL);
 		// scaleSlider.onValueChanged.AddListener(ScaleObject);
-		Slider_tBF39A11CC24CBD3F8BD728982ACAEAE43989B51A * L_5 = __this->get_scaleSlider_6();
+		Slider_tBF39A11CC24CBD3F8BD728982ACAEAE43989B51A * L_4 = __this->get_scaleSlider_6();
+		NullCheck(L_4);
+		SliderEvent_t312D89AE02E00DD965D68D6F7F813BDF455FD780 * L_5;
+		L_5 = Slider_get_onValueChanged_m7F480C569A6D668952BE1436691850D13825E129_inline(L_4, /*hidden argument*/NULL);
+		UnityAction_1_t50101DC7058B3235A520FF57E827D51694843FBB * L_6 = (UnityAction_1_t50101DC7058B3235A520FF57E827D51694843FBB *)il2cpp_codegen_object_new(UnityAction_1_t50101DC7058B3235A520FF57E827D51694843FBB_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_m8CACADCAC18230FB18DF7A6BEC3D9EAD93FEDC3B(L_6, __this, (intptr_t)((intptr_t)MakeAppearOnPlane_ScaleObject_m5B1B9949B9CCF73F5963E837F8322610046D25EB_RuntimeMethod_var), /*hidden argument*/UnityAction_1__ctor_m8CACADCAC18230FB18DF7A6BEC3D9EAD93FEDC3B_RuntimeMethod_var);
 		NullCheck(L_5);
-		SliderEvent_t312D89AE02E00DD965D68D6F7F813BDF455FD780 * L_6;
-		L_6 = Slider_get_onValueChanged_m7F480C569A6D668952BE1436691850D13825E129_inline(L_5, /*hidden argument*/NULL);
-		UnityAction_1_t50101DC7058B3235A520FF57E827D51694843FBB * L_7 = (UnityAction_1_t50101DC7058B3235A520FF57E827D51694843FBB *)il2cpp_codegen_object_new(UnityAction_1_t50101DC7058B3235A520FF57E827D51694843FBB_il2cpp_TypeInfo_var);
-		UnityAction_1__ctor_m8CACADCAC18230FB18DF7A6BEC3D9EAD93FEDC3B(L_7, __this, (intptr_t)((intptr_t)MakeAppearOnPlane_ScaleObject_m5B1B9949B9CCF73F5963E837F8322610046D25EB_RuntimeMethod_var), /*hidden argument*/UnityAction_1__ctor_m8CACADCAC18230FB18DF7A6BEC3D9EAD93FEDC3B_RuntimeMethod_var);
-		NullCheck(L_6);
-		UnityEvent_1_AddListener_mA73838FBF3836695F5183B32B797E9499BA5E59C(L_6, L_7, /*hidden argument*/UnityEvent_1_AddListener_mA73838FBF3836695F5183B32B797E9499BA5E59C_RuntimeMethod_var);
+		UnityEvent_1_AddListener_mA73838FBF3836695F5183B32B797E9499BA5E59C(L_5, L_6, /*hidden argument*/UnityEvent_1_AddListener_mA73838FBF3836695F5183B32B797E9499BA5E59C_RuntimeMethod_var);
 		// rotationSlider.maxValue = rotMax;
-		Slider_tBF39A11CC24CBD3F8BD728982ACAEAE43989B51A * L_8 = __this->get_rotationSlider_7();
-		float L_9 = __this->get_rotMax_11();
-		NullCheck(L_8);
-		Slider_set_maxValue_m5CDA3D451B68CF2D3FCFF43D1738D1DCC1C6425B(L_8, L_9, /*hidden argument*/NULL);
+		Slider_tBF39A11CC24CBD3F8BD728982ACAEAE43989B51A * L_7 = __this->get_rotationSlider_7();
+		float L_8 = __this->get_rotMax_11();
+		NullCheck(L_7);
+		Slider_set_maxValue_m5CDA3D451B68CF2D3FCFF43D1738D1DCC1C6425B(L_7, L_8, /*hidden argument*/NULL);
 		// rotationSlider.minValue = rotMin;
-		Slider_tBF39A11CC24CBD3F8BD728982ACAEAE43989B51A * L_10 = __this->get_rotationSlider_7();
-		float L_11 = __this->get_rotMin_10();
-		NullCheck(L_10);
-		Slider_set_minValue_m253C0E27C8B0275EDAAFD9E97F6DC1E426460F93(L_10, L_11, /*hidden argument*/NULL);
+		Slider_tBF39A11CC24CBD3F8BD728982ACAEAE43989B51A * L_9 = __this->get_rotationSlider_7();
+		float L_10 = __this->get_rotMin_10();
+		NullCheck(L_9);
+		Slider_set_minValue_m253C0E27C8B0275EDAAFD9E97F6DC1E426460F93(L_9, L_10, /*hidden argument*/NULL);
 		// rotationSlider.onValueChanged.AddListener(RotateObject);
-		Slider_tBF39A11CC24CBD3F8BD728982ACAEAE43989B51A * L_12 = __this->get_rotationSlider_7();
+		Slider_tBF39A11CC24CBD3F8BD728982ACAEAE43989B51A * L_11 = __this->get_rotationSlider_7();
+		NullCheck(L_11);
+		SliderEvent_t312D89AE02E00DD965D68D6F7F813BDF455FD780 * L_12;
+		L_12 = Slider_get_onValueChanged_m7F480C569A6D668952BE1436691850D13825E129_inline(L_11, /*hidden argument*/NULL);
+		UnityAction_1_t50101DC7058B3235A520FF57E827D51694843FBB * L_13 = (UnityAction_1_t50101DC7058B3235A520FF57E827D51694843FBB *)il2cpp_codegen_object_new(UnityAction_1_t50101DC7058B3235A520FF57E827D51694843FBB_il2cpp_TypeInfo_var);
+		UnityAction_1__ctor_m8CACADCAC18230FB18DF7A6BEC3D9EAD93FEDC3B(L_13, __this, (intptr_t)((intptr_t)MakeAppearOnPlane_RotateObject_m67DBD65840C9FEF51985D75A560C3859F668D49D_RuntimeMethod_var), /*hidden argument*/UnityAction_1__ctor_m8CACADCAC18230FB18DF7A6BEC3D9EAD93FEDC3B_RuntimeMethod_var);
 		NullCheck(L_12);
-		SliderEvent_t312D89AE02E00DD965D68D6F7F813BDF455FD780 * L_13;
-		L_13 = Slider_get_onValueChanged_m7F480C569A6D668952BE1436691850D13825E129_inline(L_12, /*hidden argument*/NULL);
-		UnityAction_1_t50101DC7058B3235A520FF57E827D51694843FBB * L_14 = (UnityAction_1_t50101DC7058B3235A520FF57E827D51694843FBB *)il2cpp_codegen_object_new(UnityAction_1_t50101DC7058B3235A520FF57E827D51694843FBB_il2cpp_TypeInfo_var);
-		UnityAction_1__ctor_m8CACADCAC18230FB18DF7A6BEC3D9EAD93FEDC3B(L_14, __this, (intptr_t)((intptr_t)MakeAppearOnPlane_RotateObject_m67DBD65840C9FEF51985D75A560C3859F668D49D_RuntimeMethod_var), /*hidden argument*/UnityAction_1__ctor_m8CACADCAC18230FB18DF7A6BEC3D9EAD93FEDC3B_RuntimeMethod_var);
-		NullCheck(L_13);
-		UnityEvent_1_AddListener_mA73838FBF3836695F5183B32B797E9499BA5E59C(L_13, L_14, /*hidden argument*/UnityEvent_1_AddListener_mA73838FBF3836695F5183B32B797E9499BA5E59C_RuntimeMethod_var);
+		UnityEvent_1_AddListener_mA73838FBF3836695F5183B32B797E9499BA5E59C(L_12, L_13, /*hidden argument*/UnityEvent_1_AddListener_mA73838FBF3836695F5183B32B797E9499BA5E59C_RuntimeMethod_var);
 		// }
 		return;
 	}

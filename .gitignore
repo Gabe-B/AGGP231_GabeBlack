@@ -60,3 +60,5 @@ crashlytics-build.properties
 
 Lab02_GabrielBlack/Packages/com.ptc.vuforia.engine-10.1.4.tgz
 *.so
+*.dwlt
+Lab03_GabrielBlack/Library/CurrentLayout-default.dwlt

@@ -26,8 +26,6 @@ public class MakeAppearOnPlane : MonoBehaviour
 
     void Awake()
     {
-        raycastManager = GetComponent<ARRaycastManager>();
-
         scaleSlider.maxValue = maxScale;
         scaleSlider.minValue = minScale;
         scaleSlider.onValueChanged.AddListener(ScaleObject);
@@ -47,7 +45,7 @@ public class MakeAppearOnPlane : MonoBehaviour
         }
 
         touchPos = default;
-
+        
         return false;
     }
 
