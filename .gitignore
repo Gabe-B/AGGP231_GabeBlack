@@ -62,3 +62,8 @@ Lab02_GabrielBlack/Packages/com.ptc.vuforia.engine-10.1.4.tgz
 *.so
 *.dwlt
 Lab03_GabrielBlack/Library/CurrentLayout-default.dwlt
+Lab03_GabrielBlack/Library/ArtifactDB
+*.tgz
+Lab03_GabrielBlack/Library/ArtifactDB
+Lab04_GabrielBlack/Library/PackageCache/com.ptc.vuforia.engine@f4d228be7d1a-1632536113000/Vuforia/Plugins/iOS/VuforiaEngine.framework/VuforiaEngine
+Lab04_GabrielBlack/Library/ArtifactDB

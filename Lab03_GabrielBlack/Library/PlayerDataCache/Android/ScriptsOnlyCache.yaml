@@ -403,7 +403,7 @@ ScriptsOnlyBuild:
     className: CanvasScaler
   - hash:
       serializedVersion: 2
-      Hash: 1b6cfe23689e9cd5313e1e9b35aea117
+      Hash: 78ba613a0baa56be539174f088674430
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: MakeAppearOnPlane

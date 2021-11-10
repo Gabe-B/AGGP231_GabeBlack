@@ -4,9 +4,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 using UnityEngine.Experimental.XR;
-using UnityEngine.XR.ARFoundation;
 using UnityEngine.EventSystems;
-using UnityEngine.XR.ARSubsystems;
 
 public class MakeAppearOnPlane : MonoBehaviour
 {
@@ -18,10 +16,6 @@ public class MakeAppearOnPlane : MonoBehaviour
     public float minScale;
     public float rotMin;
     public float rotMax;
-
-    ARRaycastManager raycastManager;
-    Vector2 touchPos;
-    static List<ARRaycastHit> hits = new List<ARRaycastHit>();
 
     // Start is called before the first frame update
     void Start()
@@ -35,71 +29,10 @@ public class MakeAppearOnPlane : MonoBehaviour
         rotationSlider.onValueChanged.AddListener(RotateObject);
     }
 
-    bool GetTouchPosition(out Vector2 touchPos)
-    {
-        if (Input.touchCount > 0)
-        {
-            touchPos = Input.GetTouch(0).position;
-
-            return true;
-        }
-
-        touchPos = default;
-
-        return false;
-    }
-
     // Update is called once per frame
     void Update()
     {
-        if (!GetTouchPosition(out Vector2 touchPos))
-        {
-            return;
-        }
-
-        bool isOverUI = IsPointerOverUI(touchPos);
-
-        if (CanAppearOnPlane)
-        {
-            if (!isOverUI)
-            {
-                if (raycastManager.Raycast(touchPos, hits, TrackableType.PlaneWithinPolygon))
-                {
-                    var hitPose = hits[0].pose;
-
-
-                    if (!content.activeSelf)
-                    {
-                        //contentInstance = Instantiate(content, hitPose.position, hitPose.rotation);
-                        content.SetActive(true);
-                        content.transform.position = new Vector3(hitPose.position.x, hitPose.position.y, hitPose.position.z);
-                        content.transform.rotation = hitPose.rotation;
-                    }
-                    else
-                    {
-                        //content.GetComponent<Rigidbody>().velocity = Vector3.zero;
-                        content.transform.position = new Vector3(hitPose.position.x, hitPose.position.y, hitPose.position.z);
-                        content.transform.rotation = hitPose.rotation;
-                    }
-                }
-            }
-        }
-        else
-        {
-            content.SetActive(false);
-        }
-    }
-
-    public void Toggle()
-    {
-        if (CanAppearOnPlane == true)
-        {
-            CanAppearOnPlane = false;
-        }
-        else
-        {
-            CanAppearOnPlane = true;
-        }
+        
     }
 
     private void ScaleObject(float value)

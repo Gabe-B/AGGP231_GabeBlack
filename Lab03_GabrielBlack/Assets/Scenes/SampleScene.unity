@@ -6088,6 +6088,7 @@ MonoBehaviour:
   canAppearOnPlane: 1
   scaleSlider: {fileID: 535320773}
   rotationSlider: {fileID: 2116224335}
+  origin: {fileID: 1883308220}
   maxScale: 1
   minScale: 0.05
   rotMin: 0
@@ -8312,7 +8313,7 @@ Transform:
   m_GameObject: {fileID: 7553246680899937763}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -4.66}
-  m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
   - {fileID: 9129350308380958343}
   - {fileID: 9129350307315431492}
@@ -8335,7 +8336,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &7806693825775327083
 GameObject:
   m_ObjectHideFlags: 0

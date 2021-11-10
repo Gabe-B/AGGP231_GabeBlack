@@ -13,6 +13,7 @@ public class MakeAppearOnPlane : MonoBehaviour
     public bool canAppearOnPlane = true;
     public Slider scaleSlider;
     public Slider rotationSlider;
+    public ARSessionOrigin origin;
 
     public float maxScale;
     public float minScale;
@@ -58,10 +59,10 @@ public class MakeAppearOnPlane : MonoBehaviour
 
         bool isOverUI = IsPointerOverUI(touchPos);
 
-        if (canAppearOnPlane)
-        {
+        //if (canAppearOnPlane)
+        //{
             if(!isOverUI)
-            {
+           {
                 if (raycastManager.Raycast(touchPos, hits, TrackableType.PlaneWithinPolygon))
                 {
                     var hitPose = hits[0].pose;
@@ -71,17 +72,19 @@ public class MakeAppearOnPlane : MonoBehaviour
                     {
                         //contentInstance = Instantiate(content, hitPose.position, hitPose.rotation);
                         content.SetActive(true);
-                        content.transform.position = new Vector3(hitPose.position.x, hitPose.position.y + 0.5f, hitPose.position.z);
-                        content.transform.rotation = hitPose.rotation;
+                        //content.transform.position = new Vector3(hitPose.position.x, hitPose.position.y + 0.5f, hitPose.position.z);
+                        //content.transform.rotation = hitPose.rotation;
+                        origin.MakeContentAppearAt(content.transform, hitPose.position, hitPose.rotation);
                     }
                     else
                     {
                         //content.GetComponent<Rigidbody>().velocity = Vector3.zero;
-                        content.transform.position = new Vector3(hitPose.position.x, hitPose.position.y + 0.5f, hitPose.position.z);
-                        content.transform.rotation = hitPose.rotation;
+                        //content.transform.position = new Vector3(hitPose.position.x, hitPose.position.y + 0.5f, hitPose.position.z);
+                        //content.transform.rotation = hitPose.rotation;
+                        origin.MakeContentAppearAt(content.transform, hitPose.position, hitPose.rotation);
                     }
                 }
-            }
+            //}
         }
         else
         {
