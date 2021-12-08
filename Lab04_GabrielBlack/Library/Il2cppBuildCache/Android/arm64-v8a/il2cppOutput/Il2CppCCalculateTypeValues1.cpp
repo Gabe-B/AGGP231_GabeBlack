@@ -29264,14 +29264,16 @@ public:
 	bool ___groundCheck_9;
 	// System.Single Player::playerGrav
 	float ___playerGrav_10;
+	// System.Single Player::stepHeight
+	float ___stepHeight_11;
 	// System.Boolean Player::forwards
-	bool ___forwards_11;
+	bool ___forwards_12;
 	// System.Boolean Player::backwards
-	bool ___backwards_12;
+	bool ___backwards_13;
 	// System.Boolean Player::right
-	bool ___right_13;
+	bool ___right_14;
 	// System.Boolean Player::left
-	bool ___left_14;
+	bool ___left_15;
 
 public:
 	inline static int32_t get_offset_of_rb_4() { return static_cast<int32_t>(offsetof(Player_t5689617909B48F7640EA0892D85C92C13CC22C6F, ___rb_4)); }
@@ -29332,36 +29334,44 @@ public:
 		___playerGrav_10 = value;
 	}
 
-	inline static int32_t get_offset_of_forwards_11() { return static_cast<int32_t>(offsetof(Player_t5689617909B48F7640EA0892D85C92C13CC22C6F, ___forwards_11)); }
-	inline bool get_forwards_11() const { return ___forwards_11; }
-	inline bool* get_address_of_forwards_11() { return &___forwards_11; }
-	inline void set_forwards_11(bool value)
+	inline static int32_t get_offset_of_stepHeight_11() { return static_cast<int32_t>(offsetof(Player_t5689617909B48F7640EA0892D85C92C13CC22C6F, ___stepHeight_11)); }
+	inline float get_stepHeight_11() const { return ___stepHeight_11; }
+	inline float* get_address_of_stepHeight_11() { return &___stepHeight_11; }
+	inline void set_stepHeight_11(float value)
 	{
-		___forwards_11 = value;
+		___stepHeight_11 = value;
 	}
 
-	inline static int32_t get_offset_of_backwards_12() { return static_cast<int32_t>(offsetof(Player_t5689617909B48F7640EA0892D85C92C13CC22C6F, ___backwards_12)); }
-	inline bool get_backwards_12() const { return ___backwards_12; }
-	inline bool* get_address_of_backwards_12() { return &___backwards_12; }
-	inline void set_backwards_12(bool value)
+	inline static int32_t get_offset_of_forwards_12() { return static_cast<int32_t>(offsetof(Player_t5689617909B48F7640EA0892D85C92C13CC22C6F, ___forwards_12)); }
+	inline bool get_forwards_12() const { return ___forwards_12; }
+	inline bool* get_address_of_forwards_12() { return &___forwards_12; }
+	inline void set_forwards_12(bool value)
 	{
-		___backwards_12 = value;
+		___forwards_12 = value;
 	}
 
-	inline static int32_t get_offset_of_right_13() { return static_cast<int32_t>(offsetof(Player_t5689617909B48F7640EA0892D85C92C13CC22C6F, ___right_13)); }
-	inline bool get_right_13() const { return ___right_13; }
-	inline bool* get_address_of_right_13() { return &___right_13; }
-	inline void set_right_13(bool value)
+	inline static int32_t get_offset_of_backwards_13() { return static_cast<int32_t>(offsetof(Player_t5689617909B48F7640EA0892D85C92C13CC22C6F, ___backwards_13)); }
+	inline bool get_backwards_13() const { return ___backwards_13; }
+	inline bool* get_address_of_backwards_13() { return &___backwards_13; }
+	inline void set_backwards_13(bool value)
 	{
-		___right_13 = value;
+		___backwards_13 = value;
 	}
 
-	inline static int32_t get_offset_of_left_14() { return static_cast<int32_t>(offsetof(Player_t5689617909B48F7640EA0892D85C92C13CC22C6F, ___left_14)); }
-	inline bool get_left_14() const { return ___left_14; }
-	inline bool* get_address_of_left_14() { return &___left_14; }
-	inline void set_left_14(bool value)
+	inline static int32_t get_offset_of_right_14() { return static_cast<int32_t>(offsetof(Player_t5689617909B48F7640EA0892D85C92C13CC22C6F, ___right_14)); }
+	inline bool get_right_14() const { return ___right_14; }
+	inline bool* get_address_of_right_14() { return &___right_14; }
+	inline void set_right_14(bool value)
 	{
-		___left_14 = value;
+		___right_14 = value;
+	}
+
+	inline static int32_t get_offset_of_left_15() { return static_cast<int32_t>(offsetof(Player_t5689617909B48F7640EA0892D85C92C13CC22C6F, ___left_15)); }
+	inline bool get_left_15() const { return ___left_15; }
+	inline bool* get_address_of_left_15() { return &___left_15; }
+	inline void set_left_15(bool value)
+	{
+		___left_15 = value;
 	}
 };
 

@@ -1419,7 +1419,7 @@ ScriptsOnlyBuild:
     className: MakeAppearOnPlane
   - hash:
       serializedVersion: 2
-      Hash: 59f24752d06e5517f1645dfe82893c3c
+      Hash: 357ccca2b968b20a6babafbc6d81417d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Player

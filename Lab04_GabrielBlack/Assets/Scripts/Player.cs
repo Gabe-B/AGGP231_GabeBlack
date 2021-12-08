@@ -15,6 +15,7 @@ public class Player : MonoBehaviour
     public float groundCheckDeadzone = 0.05f;
     public bool groundCheck;
     public float playerGrav = -9.81f;
+    public float stepHeight = 0.1f;
 
     [SerializeField]
     private bool forwards;
@@ -83,7 +84,7 @@ public class Player : MonoBehaviour
         bool result = Physics.Raycast(gameObject.transform.position, Vector3.down, out hit, groundCheckDist);
         groundCheck = result;
 
-        /*if (result)
+        if (result)
         {
             if (hit.distance < groundCheckDeadzone)
             {
@@ -94,7 +95,7 @@ public class Player : MonoBehaviour
             {
                 gameObject.transform.position = hit.point;
             }
-        }*/
+        }
     }
 
     #region Move Methods
