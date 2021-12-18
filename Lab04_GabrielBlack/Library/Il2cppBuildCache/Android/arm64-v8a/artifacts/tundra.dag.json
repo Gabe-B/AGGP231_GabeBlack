@@ -18,46 +18,42 @@
       "DebugActionIndex": 0
     },
     {
-      "Annotation": "Il2Cpp C:/Users/gabeb/Workspace/AGGP231_GabeBlack/Lab04_GabrielBlack/Library/Il2cppBuildCache/Android/arm64-v8a/Native/arm64-v8a/libil2cpp.so",
-      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2020.3.17f1\\Editor\\Data\\il2cpp/build/deploy/netcoreapp3.1/il2cpp.exe\" --convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=\"unityaot\" --compile-cpp --libil2cpp-static --platform=\"Android\" --architecture=\"ARM64\" --configuration=\"Release\" --outputpath=\"C:\\Users\\gabeb\\Workspace\\AGGP231_GabeBlack\\Lab04_GabrielBlack\\Library\\Il2cppBuildCache\\Android\\arm64-v8a\\Native\\arm64-v8a\\libil2cpp.so\" --cachedirectory=\"C:\\Users\\gabeb\\Workspace\\AGGP231_GabeBlack\\Lab04_GabrielBlack\\Assets\\..\\Library\\il2cpp_android_arm64-v8a/il2cpp_cache\" --additional-include-directories=\"C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\bdwgc/include\" --additional-include-directories=\"C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\libil2cpp/include\" --baselib-directory=\"C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer\\Variations\\il2cpp\\Release\\StaticLibs\\arm64-v8a\" --avoid-dynamic-library-copy --tool-chain-path=\"C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK\" --incremental-g-c-time-slice=3 --profiler-report --map-file-parser=\"C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Tools/MapFileParser/MapFileParser.exe\" --directory=C:/Users/gabeb/Workspace/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed --generatedcppdir=C:/Users/gabeb/Workspace/AGGP231_GabeBlack/Lab04_GabrielBlack/Library/Il2cppBuildCache/Android/arm64-v8a/il2cppOutput",
+      "Annotation": "Il2Cpp C:/Users/gabeb/source/repos/AGGP231_GabeBlack/Lab04_GabrielBlack/Library/Il2cppBuildCache/Android/arm64-v8a/Native/arm64-v8a/libil2cpp.so",
+      "Action": "\"D:\\Unity Editors\\2020.3.17f1\\Editor\\Data\\il2cpp/build/deploy/netcoreapp3.1/il2cpp.exe\" --convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=\"unityaot\" --compile-cpp --libil2cpp-static --platform=\"Android\" --architecture=\"ARM64\" --configuration=\"Release\" --outputpath=\"C:\\Users\\gabeb\\source\\repos\\AGGP231_GabeBlack\\Lab04_GabrielBlack\\Library\\Il2cppBuildCache\\Android\\arm64-v8a\\Native\\arm64-v8a\\libil2cpp.so\" --cachedirectory=\"C:\\Users\\gabeb\\source\\repos\\AGGP231_GabeBlack\\Lab04_GabrielBlack\\Assets\\..\\Library\\il2cpp_android_arm64-v8a/il2cpp_cache\" --additional-include-directories=\"D:/Unity Editors/2020.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\bdwgc/include\" --additional-include-directories=\"D:/Unity Editors/2020.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools\\libil2cpp/include\" --baselib-directory=\"D:/Unity Editors/2020.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer\\Variations\\il2cpp\\Release\\StaticLibs\\arm64-v8a\" --avoid-dynamic-library-copy --tool-chain-path=\"D:/Unity Editors/2020.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/NDK\" --incremental-g-c-time-slice=3 --profiler-report --map-file-parser=\"D:/Unity Editors/2020.3.17f1/Editor/Data/Tools/MapFileParser/MapFileParser.exe\" --directory=C:/Users/gabeb/source/repos/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed --generatedcppdir=C:/Users/gabeb/source/repos/AGGP231_GabeBlack/Lab04_GabrielBlack/Library/Il2cppBuildCache/Android/arm64-v8a/il2cppOutput",
       "Inputs": [
-        "C:/Users/gabeb/Workspace/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed",
-        "C:/Users/gabeb/Workspace/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/Assembly-CSharp.dll",
-        "C:/Users/gabeb/Workspace/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/Mono.Security.dll",
-        "C:/Users/gabeb/Workspace/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/mscorlib.dll",
-        "C:/Users/gabeb/Workspace/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/System.Configuration.dll",
-        "C:/Users/gabeb/Workspace/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/System.Core.dll",
-        "C:/Users/gabeb/Workspace/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/System.dll",
-        "C:/Users/gabeb/Workspace/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/System.Runtime.Serialization.dll",
-        "C:/Users/gabeb/Workspace/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/System.Xml.dll",
-        "C:/Users/gabeb/Workspace/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/Unity.TextMeshPro.dll",
-        "C:/Users/gabeb/Workspace/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.AndroidJNIModule.dll",
-        "C:/Users/gabeb/Workspace/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.AnimationModule.dll",
-        "C:/Users/gabeb/Workspace/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.AudioModule.dll",
-        "C:/Users/gabeb/Workspace/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.CoreModule.dll",
-        "C:/Users/gabeb/Workspace/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.dll",
-        "C:/Users/gabeb/Workspace/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.GridModule.dll",
-        "C:/Users/gabeb/Workspace/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.IMGUIModule.dll",
-        "C:/Users/gabeb/Workspace/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.InputLegacyModule.dll",
-        "C:/Users/gabeb/Workspace/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.Physics2DModule.dll",
-        "C:/Users/gabeb/Workspace/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.PhysicsModule.dll",
-        "C:/Users/gabeb/Workspace/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.SharedInternalsModule.dll",
-        "C:/Users/gabeb/Workspace/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.SpriteShapeModule.dll",
-        "C:/Users/gabeb/Workspace/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.TextCoreModule.dll",
-        "C:/Users/gabeb/Workspace/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.TextRenderingModule.dll",
-        "C:/Users/gabeb/Workspace/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.TilemapModule.dll",
-        "C:/Users/gabeb/Workspace/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.UI.dll",
-        "C:/Users/gabeb/Workspace/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.UIModule.dll",
-        "C:/Users/gabeb/Workspace/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/Vuforia.Unity.Engine.dll",
-        "C:/Users/gabeb/Workspace/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/Vuforia.Unity.Wrapper.dll",
-        "C:/Users/gabeb/Workspace/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/VuforiaScripts.dll",
-        "C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/Tools/MapFileParser/MapFileParser.exe",
-        "C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Release/StaticLibs/arm64-v8a/baselib.a",
-        "C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Release/StaticLibs/arm64-v8a/libunityruntime.a",
-        "\"C:/Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/il2cpp/build/deploy/netcoreapp3.1/il2cpp.exe\""
+        "C:/Users/gabeb/source/repos/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed",
+        "C:/Users/gabeb/source/repos/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/Assembly-CSharp.dll",
+        "C:/Users/gabeb/source/repos/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/Mono.Security.dll",
+        "C:/Users/gabeb/source/repos/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/mscorlib.dll",
+        "C:/Users/gabeb/source/repos/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/System.Configuration.dll",
+        "C:/Users/gabeb/source/repos/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/System.Core.dll",
+        "C:/Users/gabeb/source/repos/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/System.dll",
+        "C:/Users/gabeb/source/repos/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/System.Xml.dll",
+        "C:/Users/gabeb/source/repos/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/Unity.TextMeshPro.dll",
+        "C:/Users/gabeb/source/repos/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.AndroidJNIModule.dll",
+        "C:/Users/gabeb/source/repos/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.AnimationModule.dll",
+        "C:/Users/gabeb/source/repos/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.AudioModule.dll",
+        "C:/Users/gabeb/source/repos/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.CoreModule.dll",
+        "C:/Users/gabeb/source/repos/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.dll",
+        "C:/Users/gabeb/source/repos/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.GridModule.dll",
+        "C:/Users/gabeb/source/repos/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.IMGUIModule.dll",
+        "C:/Users/gabeb/source/repos/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.InputLegacyModule.dll",
+        "C:/Users/gabeb/source/repos/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.Physics2DModule.dll",
+        "C:/Users/gabeb/source/repos/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.PhysicsModule.dll",
+        "C:/Users/gabeb/source/repos/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.SharedInternalsModule.dll",
+        "C:/Users/gabeb/source/repos/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.SpriteShapeModule.dll",
+        "C:/Users/gabeb/source/repos/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.TextCoreModule.dll",
+        "C:/Users/gabeb/source/repos/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.TextRenderingModule.dll",
+        "C:/Users/gabeb/source/repos/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.TilemapModule.dll",
+        "C:/Users/gabeb/source/repos/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.UI.dll",
+        "C:/Users/gabeb/source/repos/AGGP231_GabeBlack/Lab04_GabrielBlack/Temp/StagingArea/assets/bin/Data/Managed/UnityEngine.UIModule.dll",
+        "D:/Unity Editors/2020.3.17f1/Editor/Data/Tools/MapFileParser/MapFileParser.exe",
+        "D:/Unity Editors/2020.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Release/StaticLibs/arm64-v8a/baselib.a",
+        "D:/Unity Editors/2020.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Release/StaticLibs/arm64-v8a/libunityruntime.a",
+        "\"D:/Unity Editors/2020.3.17f1/Editor/Data/il2cpp/build/deploy/netcoreapp3.1/il2cpp.exe\""
       ],
       "Outputs": [
-        "C:/Users/gabeb/Workspace/AGGP231_GabeBlack/Lab04_GabrielBlack/Library/Il2cppBuildCache/Android/arm64-v8a/Native/arm64-v8a/libil2cpp.so"
+        "C:/Users/gabeb/source/repos/AGGP231_GabeBlack/Lab04_GabrielBlack/Library/Il2cppBuildCache/Android/arm64-v8a/Native/arm64-v8a/libil2cpp.so"
       ],
       "TargetDirectories": [],
       "PassIndex": 0,
@@ -72,19 +68,19 @@
   ],
   "FileSignatures": [
     {
-      "File": "../../../../../../../../../Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/bdwgc/include"
-    },
-    {
-      "File": "../../../../../../../../../Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/libil2cpp/include"
-    },
-    {
-      "File": "../../../../../../../../../Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Release/StaticLibs/arm64-v8a"
-    },
-    {
       "File": "../../../../Temp/StagingArea/assets/bin/Data/Managed"
     },
     {
       "File": "artifacts/buildprogram/tundra_buildprogram.dag.json"
+    },
+    {
+      "File": "D:/Unity Editors/2020.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/bdwgc/include"
+    },
+    {
+      "File": "D:/Unity Editors/2020.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/Tools/libil2cpp/include"
+    },
+    {
+      "File": "D:/Unity Editors/2020.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Release/StaticLibs/arm64-v8a"
     },
     {
       "File": "il2cpp_settings.json"
@@ -98,7 +94,7 @@
       "Path": "../../../../Temp/StagingArea/assets/bin/Data/Managed"
     },
     {
-      "Path": "../../../../../../../../../Program Files/Unity/Hub/Editor/2020.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Release/StaticLibs/arm64-v8a",
+      "Path": "D:/Unity Editors/2020.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/il2cpp/Release/StaticLibs/arm64-v8a",
       "Recurse": 1
     }
   ],
