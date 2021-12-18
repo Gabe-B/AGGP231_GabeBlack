@@ -7,8 +7,14 @@ public class Spawn : MonoBehaviour
     public GameObject keyPrefab;
     public Transform spawnPoint;
 
+    bool spawned = false;
+
     public void SpawnKey()
 	{
-        Instantiate(keyPrefab, spawnPoint);
+        if(!spawned)
+		{
+            Instantiate(keyPrefab, spawnPoint);
+            spawned = true;
+        }
 	}
 }
